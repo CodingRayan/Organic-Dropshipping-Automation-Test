@@ -1,4 +1,5 @@
 import React from 'react';
+import {EmojiText} from './EmojiText';
 import {AbsoluteFill, Audio, OffthreadVideo, Img, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
 
 // One scene = one clip (or still image) with optional trim, zoom, caption and sound effects.
@@ -25,7 +26,7 @@ const CaptionView: React.FC<{c: Caption}> = ({c}) => {
     <AbsoluteFill style={{justifyContent: big ? 'center' : 'flex-start', alignItems: 'center', paddingTop: big ? 0 : 330}}>
       <div style={{transform: `scale(${scale})`, color: 'white', fontSize: big ? 260 : 74, fontWeight: 800,
         fontFamily: 'Arial, Helvetica, sans-serif', textAlign: 'center', padding: '0 70px', lineHeight: 1.15,
-        WebkitTextStroke: big ? '8px black' : '4px black', paintOrder: 'stroke fill'}}>{c.text}</div>
+        WebkitTextStroke: big ? '8px black' : '4px black', paintOrder: 'stroke fill', textShadow: '0 4px 14px rgba(0,0,0,0.55)'}}><EmojiText text={c.text} size={big ? 260 : 74} /></div>
     </AbsoluteFill>
   );
 };

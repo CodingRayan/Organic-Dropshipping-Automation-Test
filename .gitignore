@@ -4,3 +4,4 @@ public/clips/
 .env
 *.token
 plans/current.json
+public/emoji/
