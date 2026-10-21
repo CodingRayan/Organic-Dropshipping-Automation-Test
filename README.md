@@ -12,6 +12,7 @@ Claude plans the video, Higgsfield makes the clips, this Remotion template edits
 7. Schedule with the Metricool connector (brand MerryWall, blogId 7555040): Instagram REEL or TRIAL_REEL + Facebook REEL, autoPublish true, isAiGenerated left false.
 
 ## Assets
+- `public/audio/song.mp3`: Mariah Carey, All I Want For Christmas Is You. Beat drop at 50.30s (silence 49.5 to 50.1s, then the band kicks in). In plans use "music": {"file": "song.mp3", "dropAt": 50.3, "popAt": <second of the light pop in the video>}.
 - `public/audio/` song files (user supplies)
 - No sound effects: the user does not want them. Leave `sfx` out of plans.
 - `public/clips/` downloaded clips (not committed)
