@@ -1,0 +1,6 @@
+node_modules/
+out/
+public/clips/
+.env
+*.token
+plans/current.json

@@ -1,0 +1,12 @@
+{
+  "fps": 30,
+  "scenes": [
+    {"src": "cat.mp4", "duration": 3, "zoom": 1.25, "zoomOriginY": "85%",
+     "captions": [{"text": "My cat hasn't moved in 2 hours"}]},
+    {"src": "pop.mp4", "start": 0, "duration": 3,
+     "captions": [{"text": "Ever since I put this up..."}],
+     "sfx": [{"file": "click.mp3", "at": 0.8}, {"file": "sparkle.mp3", "at": 1.0}]},
+    {"src": "cat.mp4", "start": 3, "duration": 2.5,
+     "captions": [{"text": "He thinks the train is real"}]}
+  ]
+}
