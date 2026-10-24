@@ -1,0 +1,59 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "hate.mp3",
+  "dropAt": 30.9,
+  "popAt": 5.0,
+  "volume": 0.35,
+  "dropVolume": 0.6
+ },
+ "scenes": [
+  {
+   "src": "c5.mp4",
+   "start": 0.0,
+   "duration": 5.0,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "Let's see how it lights up 👀",
+     "top": 200
+    },
+    {
+     "text": "3",
+     "style": "big",
+     "from": 1.1,
+     "to": 2.4
+    },
+    {
+     "text": "2",
+     "style": "big",
+     "from": 2.6,
+     "to": 4.1
+    },
+    {
+     "text": "1",
+     "style": "big",
+     "from": 4.3,
+     "to": 5.0
+    }
+   ]
+  },
+  {
+   "src": "c6.mp4",
+   "start": 0.0,
+   "duration": 5.0,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "Let's see how it lights up 👀",
+     "top": 200
+    },
+    {
+     "text": "Comment \"PAD\" for the link ⬇️💕",
+     "style": "cta",
+     "from": 3.0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "hate.mp3",
+  "dropAt": 30.9,
+  "popAt": 4.0,
+  "volume": 0.6,
+  "dropVolume": 0.8
+ },
+ "scenes": [
+  {
+   "src": "c11.mp4",
+   "start": 0.3,
+   "duration": 4.0,
+   "captions": [
+    {
+     "text": "Wearing it under my hoodie in class 🤫",
+     "top": 800
+    }
+   ]
+  },
+  {
+   "src": "c12.mp4",
+   "start": 0.0,
+   "duration": 4.5,
+   "captions": [
+    {
+     "text": "Wearing it under my hoodie in class 🤫",
+     "top": 800
+    },
+    {
+     "text": "Comment \"PAD\" for the link ⬇️💕",
+     "style": "cta",
+     "from": 2.5
+    }
+   ]
+  }
+ ]
+}

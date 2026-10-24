@@ -1,0 +1,47 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "hate.mp3",
+  "dropAt": 30.9,
+  "popAt": 4.0,
+  "volume": 0.35,
+  "dropVolume": 0.6
+ },
+ "scenes": [
+  {
+   "src": "c1.mp4",
+   "start": 0.3,
+   "duration": 4.0,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "Day 2 cramps hit DIFFERENT 😭🩸"
+    }
+   ]
+  },
+  {
+   "src": "c2.mp4",
+   "start": 0.0,
+   "duration": 4.8,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "Day 2 cramps hit DIFFERENT 😭🩸"
+    },
+    {
+     "text": "Comment \"PAD\" for the link ⬇️💕",
+     "style": "cta",
+     "from": 2.8
+    }
+   ],
+   "blurs": [
+    {
+     "x": 56,
+     "y": 21,
+     "w": 52,
+     "h": 9
+    }
+   ]
+  }
+ ]
+}

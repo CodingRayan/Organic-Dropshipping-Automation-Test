@@ -1,0 +1,48 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "hate.mp3",
+  "dropAt": 30.9,
+  "popAt": 4.2,
+  "volume": 0.35,
+  "dropVolume": 0.6
+ },
+ "scenes": [
+  {
+   "src": "c9.mp4",
+   "start": 0.8,
+   "duration": 4.2,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "Made my bf try a cramp simulator 😭",
+     "top": 250
+    }
+   ],
+   "blurs": [
+    {
+     "x": 56,
+     "y": 23,
+     "w": 52,
+     "h": 9
+    }
+   ]
+  },
+  {
+   "src": "c10.mp4",
+   "start": 0.0,
+   "duration": 4.5,
+   "captions": [
+    {
+     "text": "Now he gets it 😭💕",
+     "top": 250
+    },
+    {
+     "text": "Comment \"PAD\" for the link ⬇️💕",
+     "style": "cta",
+     "from": 2.5
+    }
+   ]
+  }
+ ]
+}

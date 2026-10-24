@@ -1,0 +1,49 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "hate.mp3",
+  "dropAt": 30.9,
+  "popAt": 4.0,
+  "volume": 0.35,
+  "dropVolume": 0.6
+ },
+ "scenes": [
+  {
+   "src": "c3.mp4",
+   "start": 1.0,
+   "duration": 4.0,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "My mom's idea for cramps 🤮",
+     "top": 170
+    }
+   ],
+   "blurs": [
+    {
+     "x": 10,
+     "y": 25,
+     "w": 36,
+     "h": 6
+    }
+   ]
+  },
+  {
+   "src": "c4.mp4",
+   "start": 0.0,
+   "duration": 4.8,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "My idea 🤩",
+     "top": 170
+    },
+    {
+     "text": "Comment \"PAD\" for the link ⬇️💕",
+     "style": "cta",
+     "from": 2.8
+    }
+   ]
+  }
+ ]
+}
