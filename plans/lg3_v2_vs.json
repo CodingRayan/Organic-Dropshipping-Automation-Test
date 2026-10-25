@@ -1,0 +1,88 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 8.067,
+  "volume": 0.45,
+  "dropVolume": 0.8,
+  "duckUntil": 2.467,
+  "duckVolume": 0.2
+ },
+ "scenes": [
+  {
+   "src": "hBL.mp4",
+   "start": 0.8,
+   "duration": 2.467,
+   "captions": [
+    {
+     "text": "A heating pad that burns you..\nVS.. 🤮",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "sA.mp4",
+   "start": 0.2,
+   "duration": 1.867,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sC.mp4",
+   "start": 0.0,
+   "duration": 1.833,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sD.mp4",
+   "start": 0.2,
+   "duration": 1.267,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sB2.mp4",
+   "start": 1.25,
+   "duration": 2.467,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330,
+     "to": 0.633
+    },
+    {
+     "text": "Heat, red light & massage ♨️😮‍💨",
+     "top": 330,
+     "from": 0.633
+    }
+   ]
+  },
+  {
+   "src": "sF.mp4",
+   "start": 2.1,
+   "duration": 3.1,
+   "captions": [
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330
+    }
+   ],
+   "volume": 0.6
+  }
+ ]
+}

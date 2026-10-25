@@ -2,11 +2,15 @@
 # segs: list of (clip, clip_start_seconds, n_beats, volume_or_None)
 # caps: list of (text, from_beat, to_beat)  (to_beat None = end)
 import json, numpy as np, sys
-BEATS=np.load('/home/claude/p2/audio/beats.npy')
-DROP=79.65
+import os
+SONG=os.environ.get('SONG','stars')
+BEATS=np.load('/home/claude/p2/audio/stars_beats.npy') if SONG=='stars' else np.load('/home/claude/p2/audio/beats.npy')
+DROP=40.56 if SONG=='stars' else 79.65
+DROP_BEAT=40.57 if SONG=='stars' else 79.668
+SONGFILE='stars.mp3' if SONG=='stars' else 'hate.mp3'
 def build(name, segs, caps, drop_beat, pre=0.45, post=0.8, top=330):
     # index of the beat at the drop
-    di=int(np.argmin(abs(BEATS-79.668)))
+    di=int(np.argmin(abs(BEATS-DROP_BEAT)))
     start_i=di-drop_beat
     S=BEATS[start_i]-0.02 if drop_beat else DROP
     S=DROP-(BEATS[di]-BEATS[start_i])  # make drop land exactly on the cut at drop_beat
@@ -31,6 +35,6 @@ def build(name, segs, caps, drop_beat, pre=0.45, post=0.8, top=330):
                 if to<sc["duration"]-0.001: c["to"]=round(to,3)
                 sc["captions"].append(c)
     for sc in scenes: sc.pop("_b0"); sc.pop("_b1")
-    plan={"fps":30,"music":{"file":"hate.mp3","dropAt":DROP,"popAt":round(t(drop_beat),3),"volume":pre,"dropVolume":post},"scenes":scenes}
+    plan={"fps":30,"music":{"file":SONGFILE,"dropAt":DROP,"popAt":round(t(drop_beat),3),"volume":pre,"dropVolume":post},"scenes":scenes}
     json.dump(plan,open(f'/home/claude/organic-dropshipping-automation-test/plans/{name}.json','w'),ensure_ascii=False,indent=1)
     print(name, 'length %.2fs'%t(total_b), 'drop at %.2fs'%t(drop_beat), 'song starts %.2f'%(DROP-t(drop_beat)))

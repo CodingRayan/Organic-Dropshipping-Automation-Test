@@ -18,7 +18,7 @@ export type Scene = {
   sfx?: Sfx[];            // times relative to the scene, in seconds
 };
 // music.dropAt = second in the song where the beat drops; music.popAt = second in the video where it should land.
-export type AdProps = {fps: number; scenes: Scene[]; music?: {file: string; volume?: number; dropVolume?: number; start?: number; dropAt?: number; popAt?: number}};
+export type AdProps = {fps: number; scenes: Scene[]; music?: {file: string; volume?: number; dropVolume?: number; duckUntil?: number; duckVolume?: number; start?: number; dropAt?: number; popAt?: number}};
 
 export const totalFrames = (p: AdProps) => p.scenes.reduce((n, s) => n + Math.round(s.duration * p.fps), 0);
 
@@ -77,7 +77,8 @@ export const Ad: React.FC<AdProps> = (p) => {
         return <Audio src={staticFile('audio/' + m.file)} startFrom={Math.round(start * p.fps)}
           volume={(f) => {
             const pop = m.popAt !== undefined ? Math.round(m.popAt * p.fps) : 0;
-            const base = f < pop ? (m.volume ?? 1) : (m.dropVolume ?? m.volume ?? 1);
+            const duckEnd = m.duckUntil !== undefined ? Math.round(m.duckUntil * p.fps) : -1;
+            const base = f < duckEnd ? (m.duckVolume ?? 0.15) : f < pop ? (m.volume ?? 1) : (m.dropVolume ?? m.volume ?? 1);
             return base * interpolate(f, [total - 15, total], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
           }} />;
       })() : null}
