@@ -1,5 +1,5 @@
 exec(open('/home/claude/p2/scripts/build4.py').read())
-FEAT="Heat, Massage & Relief ♨️😮‍💨"
+FEAT="Heat, Massage\n& Relief ♨️😮‍💨"
 CTA='Comment "PAD"\nfor the link ⬇️💕'
 # lights switch on 1.875s into sB2; cut in 0.45s before it so the switch is the drop, hold 0.75s after so it never looks like a still
 LIGHTS=('sB2.mp4',1.425,1.2)
