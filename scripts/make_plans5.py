@@ -19,7 +19,7 @@ v1=[('hSN.mp4',1.4,2.3,1.0),('sC.mp4',0.0,1.5),('sD.mp4',0.2,1.2),LIGHTS]+END_V1
 build('lg5_v1_need',v1,caps("If you have period cramps,\nyou NEED this 😱🩸")+std_caps(v1),3,0.45)
 v2=[('n1burnL.mp4',2.0,2.0,1.0),('sA.mp4',0.3,1.2),('sC.mp4',0.0,1.5),LIGHTS]+END_B
 build('lg5_v2_vs',v2,caps("A heating pad that burns you..\nVS.. 🤮","A pad that actually calms\nyour cramps 🥹💕")+std_caps(v2),3,0.45)
-v3=[('n2snatchL.mp4',2.6,2.0,1.0),('sC.mp4',0.0,1.5),('sE.mp4',0.5,1.1),LIGHTS]+END
+v3=[('n2snatchL.mp4',3.2,1.8,1.0),('sC.mp4',0.0,1.5),('sE.mp4',0.5,1.1),LIGHTS]+END
 build('lg5_v3_donot',v3,caps("Do NOT show this to a girl\nwith Endometriosis 😭🩸")+std_caps(v3),3,0.45)
 v4=[('n3bathL.mp4',0.8,2.05,1.0),('sA.mp4',0.3,1.2),('sC.mp4',0.0,1.5),LIGHTS]+END_B
 build('lg5_v4_day2',v4,caps("POV: it's day 2 and you\nfinally found THIS 😮‍💨🩸")+std_caps(v4),3,0.45)

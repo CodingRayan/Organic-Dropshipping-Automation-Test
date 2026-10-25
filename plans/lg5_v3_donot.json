@@ -3,18 +3,18 @@
  "music": {
   "file": "stars.mp3",
   "dropAt": 40.56,
-  "popAt": 5.067,
+  "popAt": 4.867,
   "volume": 0.55,
   "dropVolume": 0.85,
   "ducks": [
    {
     "from": 0,
-    "to": 2.0,
+    "to": 1.8,
     "volume": 0.4
    },
    {
-    "from": 10.4,
-    "to": 13.4,
+    "from": 10.2,
+    "to": 13.2,
     "volume": 0.45
    }
   ]
@@ -22,8 +22,8 @@
  "scenes": [
   {
    "src": "n2snatchL.mp4",
-   "start": 2.6,
-   "duration": 2.0,
+   "start": 3.2,
+   "duration": 1.8,
    "captions": [
     {
      "text": "Do NOT show this to a girl\nwith Endometriosis 😭🩸",
