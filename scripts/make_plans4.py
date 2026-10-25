@@ -3,8 +3,8 @@ FEAT="Heat, Massage\n& Relief ♨️😮‍💨"
 CTA='Comment "PAD"\nfor the link ⬇️💕'
 # lights switch on 1.875s into sB2; cut in 0.45s before it so the switch is the drop, hold 0.75s after so it never looks like a still
 LIGHTS=('sB2.mp4',1.425,1.2)
-END=[('sB.mp4',0.6,1.3),('c11.mp4',0.3,1.5),('n6kitchen.mp4',1.0,1.5),('n5selfieL.mp4',2.0,3.0,1.0)]
-END_B=[('sB.mp4',0.6,1.3),('n6kitchen.mp4',1.0,1.5),('c11.mp4',0.3,1.5),('n5selfieL.mp4',2.0,3.0,1.0)]
+END=[('sB.mp4',0.6,1.3),('c12.mp4',0.2,1.5),('n6kitchen.mp4',1.0,1.5),('n5selfieL.mp4',2.0,3.0,1.0)]
+END_B=[('sB.mp4',0.6,1.3),('n6kitchen.mp4',1.0,1.5),('c12.mp4',0.2,1.5),('n5selfieL.mp4',2.0,3.0,1.0)]
 def caps(hook, second=None, hook_len=3.0):
     c=[(hook,0,hook_len if second else 'drop')]
     if second: c.append((second,hook_len,'drop'))
