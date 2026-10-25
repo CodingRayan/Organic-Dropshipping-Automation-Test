@@ -29,7 +29,7 @@ const CaptionView: React.FC<{c: Caption}> = ({c}) => {
   return (
     <AbsoluteFill style={{justifyContent: big ? 'center' : 'flex-start', alignItems: 'center', paddingTop: big ? 0 : (c.top ?? 330)}}>
       <div style={{color: 'white', fontSize: size, fontWeight: 700, fontFamily: "'TikTok Sans', Arial, sans-serif",
-        textAlign: 'center', padding: '0 90px', lineHeight: 1.22,
+        textAlign: 'center', padding: '0 70px', lineHeight: 1.22, whiteSpace: 'pre-line',
         WebkitTextStroke: big ? '8px black' : '2.5px rgba(0,0,0,0.85)', paintOrder: 'stroke fill',
         textShadow: '0 2px 8px rgba(0,0,0,0.45)'}}><EmojiText text={c.text} size={size} /></div>
     </AbsoluteFill>
