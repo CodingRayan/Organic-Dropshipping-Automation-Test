@@ -23,17 +23,15 @@ export type AdProps = {fps: number; scenes: Scene[]; music?: {file: string; volu
 export const totalFrames = (p: AdProps) => p.scenes.reduce((n, s) => n + Math.round(s.duration * p.fps), 0);
 
 const CaptionView: React.FC<{c: Caption}> = ({c}) => {
-  const f = useCurrentFrame();
-  const scale = interpolate(f, [0, 5], [0.85, 1], {extrapolateRight: 'clamp'});
+  // Static, top-only text like the competitor reels: no animation, small white TikTok Sans with a thin dark edge.
   const big = c.style === 'big';
-  const cta = c.style === 'cta';
-  const size = big ? 280 : cta ? 72 : 86;
+  const size = big ? 260 : 58;
   return (
-    <AbsoluteFill style={{justifyContent: big ? 'center' : cta ? 'flex-end' : 'flex-start', alignItems: 'center',
-      paddingTop: big || cta ? 0 : (c.top ?? 540), paddingBottom: cta ? 520 : 0}}>
-      <div style={{transform: `scale(${scale})`, color: 'white', fontSize: size, fontWeight: 700,
-        fontFamily: "'TikTok Sans', Arial, sans-serif", textAlign: 'center', padding: '0 80px', lineHeight: 1.2,
-        WebkitTextStroke: big ? '8px black' : '5px black', paintOrder: 'stroke fill', textShadow: '0 2px 6px rgba(0,0,0,0.35)'}}><EmojiText text={c.text} size={size} /></div>
+    <AbsoluteFill style={{justifyContent: big ? 'center' : 'flex-start', alignItems: 'center', paddingTop: big ? 0 : (c.top ?? 330)}}>
+      <div style={{color: 'white', fontSize: size, fontWeight: 700, fontFamily: "'TikTok Sans', Arial, sans-serif",
+        textAlign: 'center', padding: '0 90px', lineHeight: 1.22,
+        WebkitTextStroke: big ? '8px black' : '2.5px rgba(0,0,0,0.85)', paintOrder: 'stroke fill',
+        textShadow: '0 2px 8px rgba(0,0,0,0.45)'}}><EmojiText text={c.text} size={size} /></div>
     </AbsoluteFill>
   );
 };
