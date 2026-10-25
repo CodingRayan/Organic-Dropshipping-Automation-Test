@@ -1,0 +1,130 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 5.167,
+  "volume": 0.55,
+  "dropVolume": 0.85,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 2.0,
+    "volume": 0.4
+   },
+   {
+    "from": 10.5,
+    "to": 13.5,
+    "volume": 0.45
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "n1burnL.mp4",
+   "start": 2.0,
+   "duration": 2.0,
+   "captions": [
+    {
+     "text": "A heating pad that burns you..\nVS.. 🤮",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "sA.mp4",
+   "start": 0.3,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sC.mp4",
+   "start": 0.0,
+   "duration": 1.5,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sB2.mp4",
+   "start": 1.425,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "A pad that actually calms\nyour cramps 🥹💕",
+     "top": 330,
+     "to": 0.467
+    },
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330,
+     "from": 0.467
+    }
+   ]
+  },
+  {
+   "src": "sB.mp4",
+   "start": 0.6,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "c2N.mp4",
+   "start": 1.2,
+   "duration": 1.8,
+   "captions": [
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330
+    }
+   ],
+   "volume": 1.0,
+   "blurs": [
+    {
+     "x": 62,
+     "y": 11,
+     "w": 50,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "src": "c4N.mp4",
+   "start": 2.0,
+   "duration": 1.5,
+   "captions": [
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330
+    }
+   ],
+   "volume": 0.8
+  },
+  {
+   "src": "endfixL.mp4",
+   "start": 1.9,
+   "duration": 3.0,
+   "captions": [
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}
