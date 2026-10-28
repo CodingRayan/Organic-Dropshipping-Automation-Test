@@ -1,0 +1,87 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 3.867,
+  "volume": 0.55,
+  "dropVolume": 0.85,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 2.2,
+    "volume": 0.4
+   },
+   {
+    "from": 6.4,
+    "to": 8.733,
+    "volume": 0.45
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "k1restN.mp4",
+   "start": 2.2,
+   "duration": 2.2,
+   "captions": [
+    {
+     "text": "POV: your cramps hit\nin the middle of work 😭🩸",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "sD.mp4",
+   "start": 0.2,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "POV: your cramps hit\nin the middle of work 😭🩸",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sB2.mp4",
+   "start": 1.425,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "POV: your cramps hit\nin the middle of work 😭🩸",
+     "top": 330,
+     "to": 0.467
+    },
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330,
+     "from": 0.467
+    }
+   ]
+  },
+  {
+   "src": "k8desk.mp4",
+   "start": 0.5,
+   "duration": 1.8,
+   "captions": [
+    {
+     "text": "Now I wear it at my desk 🤫\n(runs on a power bank) 🔋",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "endfixL.mp4",
+   "start": 2.6,
+   "duration": 2.3333333333333335,
+   "captions": [
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}

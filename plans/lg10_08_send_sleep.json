@@ -1,0 +1,108 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 3.667,
+  "volume": 0.55,
+  "dropVolume": 0.85,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 2.0,
+    "volume": 0.4
+   },
+   {
+    "from": 7.0,
+    "to": 9.333,
+    "volume": 0.45
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "k3bedN.mp4",
+   "start": 1.6,
+   "duration": 2.0,
+   "captions": [
+    {
+     "text": "Send this to your girl who\ncan't sleep on her period 😭",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "sD.mp4",
+   "start": 0.2,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "Send this to your girl who\ncan't sleep on her period 😭",
+     "top": 330
+    }
+   ]
+  },
+  {
+   "src": "sB2.mp4",
+   "start": 1.425,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "Send this to your girl who\ncan't sleep on her period 😭",
+     "top": 330,
+     "to": 0.467
+    },
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330,
+     "from": 0.467
+    }
+   ]
+  },
+  {
+   "src": "c4N.mp4",
+   "start": 2.0,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330
+    }
+   ],
+   "volume": 0.8
+  },
+  {
+   "src": "c2N.mp4",
+   "start": 1.2,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330
+    }
+   ],
+   "volume": 1.0,
+   "blurs": [
+    {
+     "x": 62,
+     "y": 11,
+     "w": 50,
+     "h": 19
+    }
+   ]
+  },
+  {
+   "src": "endfixL.mp4",
+   "start": 2.6,
+   "duration": 2.3333333333333335,
+   "captions": [
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}

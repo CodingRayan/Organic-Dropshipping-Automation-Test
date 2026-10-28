@@ -1,0 +1,101 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 5.867,
+  "volume": 0.55,
+  "dropVolume": 0.85,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 2.0,
+    "volume": 0.4
+   },
+   {
+    "from": 7.9,
+    "to": 10.233,
+    "volume": 0.45
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "k5burnN.mp4",
+   "start": 1.6,
+   "duration": 2.0,
+   "captions": [
+    {
+     "text": "Rating period cramp hacks 🩸\nPlug-in heating pad: 2/10 🤮",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "k7pillsN.mp4",
+   "start": 2.3,
+   "duration": 1.8,
+   "captions": [
+    {
+     "text": "Rating period cramp hacks 🩸\nPain pills: 5/10 😣",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "k6teaN.mp4",
+   "start": 2.5,
+   "duration": 1.6,
+   "captions": [
+    {
+     "text": "Rating period cramp hacks 🩸\nPeriod tea: 3/10 😐",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "sB2.mp4",
+   "start": 1.425,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "Rating period cramp hacks 🩸\nThis pad: 🤔",
+     "top": 330,
+     "to": 0.467
+    },
+    {
+     "text": "Rating period cramp hacks 🩸\nThis pad: 10/10 🥹💕",
+     "top": 330,
+     "from": 0.467
+    }
+   ]
+  },
+  {
+   "src": "c4N.mp4",
+   "start": 2.0,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "Rating period cramp hacks 🩸\nThis pad: 10/10 🥹💕",
+     "top": 330
+    }
+   ],
+   "volume": 0.8
+  },
+  {
+   "src": "endfixL.mp4",
+   "start": 2.6,
+   "duration": 2.3333333333333335,
+   "captions": [
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}
