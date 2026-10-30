@@ -1,0 +1,54 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 0.6,
+  "volume": 0.3,
+  "dropVolume": 0.45,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 3.3,
+    "volume": 0.25
+   },
+   {
+    "from": 3.3,
+    "to": 6.8,
+    "volume": 0.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "r2whereN.mp4",
+   "start": 0.0,
+   "duration": 3.3,
+   "captions": [
+    {
+     "text": "POV: you pack your period\npad in your carry on 😭",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "r3confN.mp4",
+   "start": 0.5,
+   "duration": 3.5,
+   "captions": [
+    {
+     "text": "She kept it 😭",
+     "top": 330,
+     "to": 1.5
+    },
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330,
+     "from": 1.5
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}

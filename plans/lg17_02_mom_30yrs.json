@@ -1,0 +1,54 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 2.5,
+  "volume": 0.3,
+  "dropVolume": 0.4,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 2.5,
+    "volume": 0.25
+   },
+   {
+    "from": 2.5,
+    "to": 6.7,
+    "volume": 0.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "t1giftN.mp4",
+   "start": 0.0,
+   "duration": 2.5,
+   "captions": [
+    {
+     "text": "My mom dealt with cramps\nfor 30 years so.. 🥹",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "t2momN.mp4",
+   "start": 0.3,
+   "duration": 4.2,
+   "captions": [
+    {
+     "text": "Her reaction 😭",
+     "top": 330,
+     "to": 1.9
+    },
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330,
+     "from": 1.9
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}
