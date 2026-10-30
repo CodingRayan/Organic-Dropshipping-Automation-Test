@@ -1,0 +1,89 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "stars.mp3",
+  "dropAt": 40.56,
+  "popAt": 5.667,
+  "volume": 0.3,
+  "dropVolume": 0.6,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 3.9,
+    "volume": 0.25
+   },
+   {
+    "from": 6.4,
+    "to": 8.3,
+    "volume": 0.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "q1simN.mp4",
+   "start": 1.3,
+   "duration": 1.8,
+   "captions": [
+    {
+     "text": "He said cramps can't be\nTHAT bad.. so I did this 😭",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "q2floorN.mp4",
+   "start": 0.3,
+   "duration": 2.1,
+   "captions": [
+    {
+     "text": "He said cramps can't be\nTHAT bad.. so I did this 😭",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "q3calmN.mp4",
+   "start": 0.5,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "Meanwhile me on day 2 😌",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "sB2.mp4",
+   "start": 1.425,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "Meanwhile me on day 2 😌",
+     "top": 330,
+     "to": 0.467
+    },
+    {
+     "text": "Heat, Massage\n& Relief ♨️😮‍💨",
+     "top": 330,
+     "from": 0.467
+    }
+   ]
+  },
+  {
+   "src": "q3calmN.mp4",
+   "start": 3.1,
+   "duration": 1.9,
+   "captions": [
+    {
+     "text": "Comment \"PAD\"\nfor the link ⬇️💕",
+     "top": 330
+    }
+   ],
+   "volume": 1.0
+  }
+ ]
+}
