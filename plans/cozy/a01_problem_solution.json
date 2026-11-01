@@ -1,0 +1,116 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "aiwfc.mp3",
+  "start": 0,
+  "volume": 1.0,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 3.3,
+    "volume": 0.75
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "cP_problem2.mp4",
+   "start": 0.0,
+   "duration": 3.27,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "The Problem 🤕🚘",
+     "from": 0,
+     "to": 3.27,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c2_install.mp4",
+   "start": 0.6,
+   "duration": 1.56,
+   "captions": [
+    {
+     "text": "Vs...",
+     "from": 0.0,
+     "to": 1.56,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c3_buckle.mp4",
+   "start": 1.26,
+   "duration": 2.74,
+   "captions": [
+    {
+     "text": "Vs...",
+     "from": 0.0,
+     "to": 2.74,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c4_blanket.mp4",
+   "start": 0.5,
+   "duration": 2.03,
+   "captions": [
+    {
+     "text": "Vs...",
+     "from": 0.0,
+     "to": 2.03,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c6_golden_fix.mp4",
+   "start": 0.4,
+   "duration": 1.83,
+   "captions": [
+    {
+     "text": "The Solution 🤤❤️",
+     "from": 0.0,
+     "to": 1.83,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c1_drive.mp4",
+   "start": 0.0,
+   "duration": 1.7,
+   "captions": [
+    {
+     "text": "The Solution 🤤❤️",
+     "from": 0.0,
+     "to": 1.7,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c7_overhead.mp4",
+   "start": 0.4,
+   "duration": 1.6,
+   "captions": [
+    {
+     "text": "The Solution 🤤❤️",
+     "from": 0.0,
+     "to": 1.6,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  }
+ ]
+}

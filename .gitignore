@@ -5,3 +5,5 @@ public/clips/
 *.token
 plans/current.json
 public/emoji/
+public/audio/cozy.mp3
+public/audio/aiwfc.mp3

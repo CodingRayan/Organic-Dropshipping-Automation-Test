@@ -5,7 +5,7 @@ import {EmojiText} from './EmojiText';
 import {AbsoluteFill, Audio, OffthreadVideo, Img, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
 
 // One scene = one clip (or still image) with optional trim, zoom, caption and sound effects.
-export type Caption = {text: string; from?: number; to?: number; style?: 'hook' | 'big' | 'cta'; top?: number};
+export type Caption = {text: string; from?: number; to?: number; style?: 'hook' | 'big' | 'cta'; top?: number; size?: number};
 export type Sfx = {file: string; at: number; volume?: number};
 export type Scene = {
   src: string;            // file in public/clips (mp4 or image)
@@ -26,7 +26,7 @@ export const totalFrames = (p: AdProps) => p.scenes.reduce((n, s) => n + Math.ro
 const CaptionView: React.FC<{c: Caption}> = ({c}) => {
   // Static, top-only text like the competitor reels: no animation, small white TikTok Sans with a thin dark edge.
   const big = c.style === 'big';
-  const size = big ? 260 : 68;
+  const size = c.size ?? (big ? 260 : 68);
   return (
     <AbsoluteFill style={{justifyContent: big ? 'center' : 'flex-start', alignItems: 'center', paddingTop: big ? 0 : (c.top ?? 330)}}>
       <div style={{color: 'white', fontSize: size, fontWeight: big ? 700 : 600, fontFamily: "'TikTok Sans', Arial, sans-serif",

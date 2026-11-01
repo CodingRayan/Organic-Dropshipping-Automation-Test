@@ -1,0 +1,108 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "cozy.mp3",
+  "start": 0,
+  "volume": 1.0
+ },
+ "scenes": [
+  {
+   "src": "c6_golden_fix.mp4",
+   "start": 0.6,
+   "duration": 2.0,
+   "captions": [
+    {
+     "text": "POV: you're pregnant and he finally\nfound you a car pillow 🥹🤰",
+     "from": 0,
+     "to": 2.0,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "src": "c2_install.mp4",
+   "start": 0.5,
+   "duration": 1.7,
+   "captions": [
+    {
+     "text": "POV: you're pregnant and he finally\nfound you a car pillow 🥹🤰",
+     "from": 0.0,
+     "to": 1.7,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "src": "c3_buckle.mp4",
+   "start": 1.2,
+   "duration": 2.8,
+   "captions": [
+    {
+     "text": "POV: you're pregnant and he finally\nfound you a car pillow 🥹🤰",
+     "from": 0.0,
+     "to": 2.8,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "src": "c4_blanket.mp4",
+   "start": 0.5,
+   "duration": 2.5,
+   "captions": [
+    {
+     "text": "POV: you're pregnant and he finally\nfound you a car pillow 🥹🤰",
+     "from": 0.0,
+     "to": 2.5,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "src": "c7_overhead.mp4",
+   "start": 0.3,
+   "duration": 1.73,
+   "captions": [
+    {
+     "text": "Comment \"COZY\" if you\nwant one! ❤️🫣",
+     "from": 0.0,
+     "to": 1.73,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "src": "c5_laugh.mp4",
+   "start": 0.5,
+   "duration": 1.87,
+   "captions": [
+    {
+     "text": "Comment \"COZY\" if you\nwant one! ❤️🫣",
+     "from": 0.0,
+     "to": 1.87,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  },
+  {
+   "src": "c1_drive.mp4",
+   "start": 0.0,
+   "duration": 2.0,
+   "captions": [
+    {
+     "text": "Comment \"COZY\" if you\nwant one! ❤️🫣",
+     "from": 0.0,
+     "to": 2.0,
+     "top": 330,
+     "size": 58
+    }
+   ]
+  }
+ ]
+}
