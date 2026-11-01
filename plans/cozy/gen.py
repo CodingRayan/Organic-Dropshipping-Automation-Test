@@ -34,10 +34,10 @@ CTA='Comment "COZY" if you\nwant one! ❤️🫣'
 hooks=[
  ("c01_perfect_gift",C_sc,'"The perfect gift for a pregnant\nwife doesn\'t exi-" 😭🫶'),
  ("c02_hide",C_sc,'HIDE this from your\npregnant wife... 🤫🤰'),
- ("c03_never_complains",C_sc,'"My pregnant wife NEVER complains\non road trips agai-" 😮‍💨🫶'),
+ ("c03_never_complains",C_sc,'"My pregnant wife NEVER\ncomplains on road trips agai-" 😮‍💨🫶'),
  ("c04_send_mom_to_be",C_sc,'Send this to a mom-to-be with\na holiday drive coming up 🤰🚗'),
  ("c05_tag_thanksgiving",C2_sc,'Tag your husband before the\nThanksgiving drive 🦃🚗'),
- ("c06_pov_found",C2_sc,'POV: you\'re pregnant and he finally\nfound you a car pillow 🥹🤰'),
+ ("c06_pov_found",C2_sc,'POV: you\'re pregnant and he\nfinally found you a car pillow 🥹🤰'),
  ("c07_every_passenger",C2_sc,'Every pregnant passenger needs\nthis before Christmas 🎄🤰'),
  ("c08_8_months",C2_sc,'8 months pregnant on a road trip\nhits different now 😴🫶'),
 ]
