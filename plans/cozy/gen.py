@@ -48,3 +48,9 @@ for name,sc,h in hooks:
     p,t=build(sc,[(h,0,9.0,TOP,SZ),(CTA,9.0,99,TOP,SZ)],mC); plans[name]=(p,t)
 for k,(p,t) in plans.items():
     json.dump(p,open(f'plans/cozy/{k}.json','w'),ensure_ascii=False,indent=1); print(k,t)
+
+# Day 2 trial reels (one change each, T07)
+p,t=build(B_sc,[("His idea 😭",0,3.37,LT,LSZ),("Vs...",3.37,9.6,LT,LSZ),("Mine 😍🎁",9.6,99,LT,LSZ)],mA)
+json.dump(p,open('plans/cozy/t01_idea_his_mine.json','w'),ensure_ascii=False,indent=1); print('t01',t)
+p,t=build(C2_sc,[('"My pregnant wife NEVER\ncomplains on road trips agai-" 😮‍💨🫶',0,9.0,TOP,SZ),(CTA,9.0,99,TOP,SZ)],mC)
+json.dump(p,open('plans/cozy/t02_never_complains_newfirst.json','w'),ensure_ascii=False,indent=1); print('t02',t)
