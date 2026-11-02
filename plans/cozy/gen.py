@@ -54,3 +54,16 @@ p,t=build(B_sc,[("His idea 😭",0,3.37,LT,LSZ),("Vs...",3.37,9.6,LT,LSZ),("Mine
 json.dump(p,open('plans/cozy/t01_idea_his_mine.json','w'),ensure_ascii=False,indent=1); print('t01',t)
 p,t=build(C2_sc,[('"My pregnant wife NEVER\ncomplains on road trips agai-" 😮‍💨🫶',0,9.0,TOP,SZ),(CTA,9.0,99,TOP,SZ)],mC)
 json.dump(p,open('plans/cozy/t02_never_complains_newfirst.json','w'),ensure_ascii=False,indent=1); print('t02',t)
+
+# Day 2 cardboard (Idea/Product) split tests, T05/T07
+B3_sc=[("cI_idea2.mp4",0.3,3.37,1.0),("c2_install.mp4",0.4,2.23,0),("c3_buckle.mp4",0.0,4.0,0),
+      ("c5_laugh.mp4",0.4,1.7,0),("c6_golden_fix.mp4",0.4,1.83,0),("c7_overhead.mp4",0.4,1.6,0)]
+B4_sc=[("cI_idea2.mp4",0.3,3.37,1.0),("c2_install.mp4",0.4,2.23,0),("c3_buckle.mp4",0.0,4.0,0),
+      ("c6_golden_fix.mp4",0.4,1.83,0),("c1_drive.mp4",0.0,1.7,0),("c7_overhead.mp4",0.4,1.6,0)]
+for name,sc,caps in [
+ ("d01_my_idea_his_idea",B_sc,[("My idea 😭",0,3.37,LT,LSZ),("Vs...",3.37,9.6,LT,LSZ),("His idea 😍🎁",9.6,99,LT,LSZ)]),
+ ("d02_8_months_be_like",B_sc,[("8 months pregnant be like 😭",0,3.37,LT,LSZ),("Vs...",3.37,9.6,LT,LSZ),("What he got me 😍🎁",9.6,99,LT,LSZ)]),
+ ("d03_idea_laugh_first",B3_sc,[("The Idea 😭",0,3.37,LT,LSZ),("Vs...",3.37,9.6,LT,LSZ),("The Product 😍🎁",9.6,99,LT,LSZ)]),
+ ("d04_idea_solution",B4_sc,[("The Idea 😭",0,3.37,LT,LSZ),("Vs...",3.37,9.6,LT,LSZ),("The Solution 🤤❤️",9.6,99,LT,LSZ)]),
+]:
+    p,t=build(sc,caps,mA); json.dump(p,open(f'plans/cozy/{name}.json','w'),ensure_ascii=False,indent=1); print(name,t)

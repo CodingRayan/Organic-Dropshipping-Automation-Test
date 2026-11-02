@@ -1,0 +1,102 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "aiwfc.mp3",
+  "start": 0,
+  "volume": 1.0,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 3.3,
+    "volume": 0.75
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "cI_idea2.mp4",
+   "start": 0.3,
+   "duration": 3.37,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "My idea 😭",
+     "from": 0,
+     "to": 3.37,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c2_install.mp4",
+   "start": 0.4,
+   "duration": 2.23,
+   "captions": [
+    {
+     "text": "Vs...",
+     "from": 0.0,
+     "to": 2.23,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c3_buckle.mp4",
+   "start": 0.0,
+   "duration": 4.0,
+   "captions": [
+    {
+     "text": "Vs...",
+     "from": 0.0,
+     "to": 4.0,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c6_golden_fix.mp4",
+   "start": 0.4,
+   "duration": 1.83,
+   "captions": [
+    {
+     "text": "His idea 😍🎁",
+     "from": 0.0,
+     "to": 1.83,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c5_laugh.mp4",
+   "start": 0.4,
+   "duration": 1.7,
+   "captions": [
+    {
+     "text": "His idea 😍🎁",
+     "from": 0.0,
+     "to": 1.7,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  },
+  {
+   "src": "c7_overhead.mp4",
+   "start": 0.4,
+   "duration": 1.6,
+   "captions": [
+    {
+     "text": "His idea 😍🎁",
+     "from": 0.0,
+     "to": 1.6,
+     "top": 400,
+     "size": 62
+    }
+   ]
+  }
+ ]
+}
