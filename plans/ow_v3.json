@@ -1,0 +1,23 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 4.0,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v3.mp4",
+   "start": 0,
+   "duration": 12.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics… 🥶🐙",
+     "top": 300
+    }
+   ]
+  }
+ ]
+}

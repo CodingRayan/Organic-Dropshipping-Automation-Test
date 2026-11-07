@@ -1,0 +1,23 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 4.4,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v1.mp4",
+   "start": 0,
+   "duration": 14.0,
+   "captions": [
+    {
+     "text": "Girls who are always cold\nDON'T watch this 😝🐙",
+     "top": 300
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 4.3,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v2.mp4",
+   "start": 0,
+   "duration": 12.0,
+   "captions": [
+    {
+     "text": "OctoWrap x H&M 😱🐙‼️",
+     "top": 300,
+     "to": 9.5
+    },
+    {
+     "text": "Jk we make these..\nComment OCTO\nif you want one 🐙",
+     "top": 300,
+     "from": 9.5
+    }
+   ]
+  }
+ ]
+}

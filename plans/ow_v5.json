@@ -1,0 +1,23 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 3.0,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v5.mp4",
+   "start": 0,
+   "duration": 9.0,
+   "captions": [
+    {
+     "text": "\"Babe stop buying\nSTUPID sh*t you're\nalmost 30\" 😒\nMe: 😂👌",
+     "top": 260
+    }
+   ]
+  }
+ ]
+}

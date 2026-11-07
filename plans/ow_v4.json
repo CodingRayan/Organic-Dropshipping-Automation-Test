@@ -1,0 +1,35 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 3.5,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v4.mp4",
+   "start": 0,
+   "duration": 14.5,
+   "captions": [
+    {
+     "text": "The Problem 🥶",
+     "top": 300,
+     "to": 3.5
+    },
+    {
+     "text": "Vs...",
+     "top": 300,
+     "from": 3.5,
+     "to": 9.5
+    },
+    {
+     "text": "The Solution 😌🐙",
+     "top": 300,
+     "from": 9.5
+    }
+   ]
+  }
+ ]
+}

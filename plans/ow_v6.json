@@ -1,0 +1,23 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 4.2,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v6.mp4",
+   "start": 0,
+   "duration": 8.8,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\"\nMe 🐙:",
+     "top": 300
+    }
+   ]
+  }
+ ]
+}
