@@ -1,0 +1,51 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 2.8,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v5.mp4",
+   "start": 0.0,
+   "duration": 2.8,
+   "captions": [
+    {
+     "text": "\"Babe stop buying STUPID\nsh*t you're almost 30\" 😒\nMe: 😂👌",
+     "top": 260,
+     "from": 0,
+     "to": 2.8
+    }
+   ]
+  },
+  {
+   "src": "octo_v5.mp4",
+   "start": 3.3,
+   "duration": 2.6,
+   "captions": [
+    {
+     "text": "\"Babe stop buying STUPID\nsh*t you're almost 30\" 😒\nMe: 😂👌",
+     "top": 260,
+     "from": 0.0,
+     "to": 2.6
+    }
+   ]
+  },
+  {
+   "src": "octo_v5.mp4",
+   "start": 6.1,
+   "duration": 2.9,
+   "captions": [
+    {
+     "text": "\"Babe stop buying STUPID\nsh*t you're almost 30\" 😒\nMe: 😂👌",
+     "top": 260,
+     "from": 0.0,
+     "to": 2.9
+    }
+   ]
+  }
+ ]
+}
