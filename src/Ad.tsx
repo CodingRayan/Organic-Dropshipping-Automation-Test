@@ -5,7 +5,7 @@ import {EmojiText} from './EmojiText';
 import {AbsoluteFill, Audio, OffthreadVideo, Img, Sequence, staticFile, useCurrentFrame, interpolate} from 'remotion';
 
 // One scene = one clip (or still image) with optional trim, zoom, caption and sound effects.
-export type Caption = {text: string; from?: number; to?: number; style?: 'hook' | 'big' | 'cta'; top?: number};
+export type Caption = {text: string; from?: number; to?: number; style?: 'hook' | 'big' | 'cta'; top?: number; left?: number};
 export type Sfx = {file: string; at: number; volume?: number};
 export type Scene = {
   src: string;            // file in public/clips (mp4 or image)
@@ -28,7 +28,7 @@ const CaptionView: React.FC<{c: Caption}> = ({c}) => {
   const big = c.style === 'big';
   const size = big ? 260 : 68;
   return (
-    <AbsoluteFill style={{justifyContent: big ? 'center' : 'flex-start', alignItems: 'center', paddingTop: big ? 0 : (c.top ?? 330)}}>
+    <AbsoluteFill style={{justifyContent: big ? 'center' : 'flex-start', alignItems: c.left !== undefined ? 'flex-start' : 'center', paddingLeft: c.left ?? 0, paddingTop: big ? 0 : (c.top ?? 330)}}>
       <div style={{color: 'white', fontSize: size, fontWeight: big ? 700 : 600, fontFamily: "'TikTok Sans', Arial, sans-serif",
         textAlign: 'center', padding: '0 36px', lineHeight: 1.22, whiteSpace: 'pre-line',
         WebkitTextStroke: big ? '8px black' : undefined, paintOrder: 'stroke fill',

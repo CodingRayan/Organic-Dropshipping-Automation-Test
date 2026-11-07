@@ -1,0 +1,132 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 3.1,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v6.mp4",
+   "start": 1.0,
+   "duration": 4.8,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0,
+     "to": 4.8
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0,
+     "to": 4.8,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 0.3,
+   "duration": 1.6,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.6
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.6,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 4.15,
+   "duration": 1.7,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.7
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.7,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 6.3,
+   "duration": 1.4,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.4
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.4,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 10.5,
+   "duration": 1.6,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.6
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.6,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v1.mp4",
+   "start": 12.3,
+   "duration": 1.5,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.5
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.5,
+     "left": 60
+    }
+   ]
+  }
+ ]
+}

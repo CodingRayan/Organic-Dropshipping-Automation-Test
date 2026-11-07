@@ -1,0 +1,71 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 3.9,
+  "volume": 0.9,
+  "dropVolume": 0.9,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 3.9,
+    "volume": 0.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "octo_v3.mp4",
+   "start": 0.0,
+   "duration": 3.9,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 3.9
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 4.1,
+   "duration": 1.85,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 1.85
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 6.15,
+   "duration": 3.0,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 3.0
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 10.45,
+   "duration": 2.4,
+   "captions": [
+    {
+     "text": "Comment OCTO\nif you want one 🐙💕",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.4
+    }
+   ]
+  }
+ ]
+}

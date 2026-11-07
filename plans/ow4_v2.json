@@ -1,0 +1,97 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 4.1,
+  "volume": 0.9,
+  "dropVolume": 0.9,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 4.0,
+    "volume": 0.3
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "octo_v2.mp4",
+   "start": 0.0,
+   "duration": 3.55,
+   "captions": [
+    {
+     "text": "OctoWrap x H&M!? 😱🐙",
+     "top": 345,
+     "from": 0,
+     "to": 3.55
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 3.75,
+   "duration": 1.13,
+   "captions": [
+    {
+     "text": "OctoWrap x H&M!? 😱🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 1.13
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 5.04,
+   "duration": 0.72,
+   "captions": [
+    {
+     "text": "OctoWrap x H&M!? 😱🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 0.72
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 5.92,
+   "duration": 0.8,
+   "captions": [
+    {
+     "text": "OctoWrap x H&M!? 😱🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 0.8
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 6.88,
+   "duration": 2.6,
+   "captions": [
+    {
+     "text": "OctoWrap x H&M!? 😱🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.6
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 9.67,
+   "duration": 2.33,
+   "captions": [
+    {
+     "text": "Jk we make these.. 🤭\nComment OCTO\nif you want one 🐙💕",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.33
+    }
+   ]
+  }
+ ]
+}
