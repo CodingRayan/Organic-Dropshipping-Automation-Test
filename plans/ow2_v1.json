@@ -3,31 +3,57 @@
  "music": {
   "file": "octo.mp3",
   "dropAt": 5.15,
-  "popAt": 2.77,
+  "popAt": 4.0,
   "volume": 0.9,
   "dropVolume": 0.9
  },
  "scenes": [
   {
-   "src": "octo_v1f.mp4",
+   "src": "octo_v1.mp4",
    "start": 0.0,
-   "duration": 0.67,
+   "duration": 0.8,
    "captions": [
     {
      "text": "Girls who are always cold\nDON'T watch this 😝🐙",
      "top": 300,
      "from": 0,
-     "to": 0.67
+     "to": 0.8
     }
    ]
   },
   {
-   "src": "octo_v1f.mp4",
+   "src": "octo_v1.mp4",
    "start": 1.0,
-   "duration": 2.1,
+   "duration": 3.2,
    "captions": [
     {
      "text": "Girls who are always cold\nDON'T watch this 😝🐙",
+     "top": 300,
+     "from": 0.0,
+     "to": 3.2
+    }
+   ]
+  },
+  {
+   "src": "octo_v1.mp4",
+   "start": 4.6,
+   "duration": 2.3,
+   "captions": [
+    {
+     "text": "Softer than anything\nyou own 🥹",
+     "top": 300,
+     "from": 0.0,
+     "to": 2.3
+    }
+   ]
+  },
+  {
+   "src": "octo_v1.mp4",
+   "start": 7.3,
+   "duration": 2.1,
+   "captions": [
+    {
+     "text": "Softer than anything\nyou own 🥹",
      "top": 300,
      "from": 0.0,
      "to": 2.1
@@ -35,65 +61,23 @@
    ]
   },
   {
-   "src": "octo_v1f.mp4",
-   "start": 3.8,
-   "duration": 1.4,
+   "src": "octo_v1.mp4",
+   "start": 11.8,
+   "duration": 2.1,
    "captions": [
     {
      "text": "Softer than anything\nyou own 🥹",
      "top": 300,
      "from": 0.0,
-     "to": 1.4
-    }
-   ],
-   "zoom": 1.05
-  },
-  {
-   "src": "octo_v1f.mp4",
-   "start": 6.1,
-   "duration": 1.3,
-   "captions": [
-    {
-     "text": "Softer than anything\nyou own 🥹",
-     "top": 300,
-     "from": 0.0,
-     "to": 1.3
-    }
-   ],
-   "zoom": 1.05
-  },
-  {
-   "src": "octo_v1f.mp4",
-   "start": 8.1,
-   "duration": 1.1,
-   "captions": [
-    {
-     "text": "Softer than anything\nyou own 🥹",
-     "top": 300,
-     "from": 0.0,
-     "to": 0.8
+     "to": 0.1
     },
     {
      "text": "Comment OCTO\nif you want one 🐙",
      "top": 300,
-     "from": 0.8,
-     "to": 1.1
+     "from": 0.1,
+     "to": 2.1
     }
    ]
-  },
-  {
-   "src": "octo_v1f.mp4",
-   "start": 9.8,
-   "duration": 1.7,
-   "captions": [
-    {
-     "text": "Comment OCTO\nif you want one 🐙",
-     "top": 300,
-     "from": 0.0,
-     "to": 1.7
-    }
-   ],
-   "zoom": 1.05
   }
  ]
 }
