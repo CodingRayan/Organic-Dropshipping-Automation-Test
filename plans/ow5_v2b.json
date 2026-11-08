@@ -1,0 +1,59 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 4.95,
+  "volume": 0.9,
+  "dropVolume": 0.9,
+  "ducks": [
+   {
+    "from": 0,
+    "to": 4.95,
+    "volume": 0.15
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "src": "hm_hook.mp4",
+   "start": 0.0,
+   "duration": 6.0,
+   "captions": [
+    {
+     "text": "Octopus girlies DON'T walk…\nRUNN to H&M 😱‼️",
+     "top": 345,
+     "from": 0,
+     "to": 6.0
+    }
+   ],
+   "volume": 1.0
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 6.85,
+   "duration": 2.65,
+   "captions": [
+    {
+     "text": "Octopus girlies DON'T walk…\nRUNN to H&M 😱‼️",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.65
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 9.65,
+   "duration": 2.35,
+   "captions": [
+    {
+     "text": "Jk we make these.. 🤭\nComment OCTO\nif you want one 🐙💕",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.35
+    }
+   ]
+  }
+ ]
+}

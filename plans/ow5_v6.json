@@ -1,0 +1,92 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 3.95,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "bf_hook.mp4",
+   "start": 0.0,
+   "duration": 5.0,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0,
+     "to": 5.0
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0,
+     "to": 5.0,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 4.15,
+   "duration": 1.7,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.7
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.7,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 6.3,
+   "duration": 1.4,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.4
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.4,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 10.5,
+   "duration": 1.6,
+   "captions": [
+    {
+     "text": "\"My bf: Stop buying nonsense.\" 🙄",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.6
+    },
+    {
+     "text": "Me 🐙:",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.6,
+     "left": 60
+    }
+   ]
+  }
+ ]
+}
