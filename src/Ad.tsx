@@ -11,7 +11,7 @@ export type Scene = {
   src: string;            // file in public/clips (mp4 or image)
   start?: number;         // seconds to skip at the start of the clip
   duration: number;       // seconds to show
-  volume?: number;        // clip's own audio (talking, reactions); omit = muted
+  volume?: number;        // clip's own audio (talking, reactions); omit = full volume (1), set 0 to mute on purpose
   zoom?: number;          // 1 = none, 1.3 = 130%
   zoomOriginY?: string;   // e.g. '80%' to zoom toward the bottom
   blurs?: {x: number; y: number; w: number; h: number}[]; // % boxes to blur (e.g. gibberish TV text)
@@ -42,7 +42,7 @@ const SceneView: React.FC<{s: Scene; fps: number}> = ({s, fps}) => {
   const z = s.zoom ?? 1;
   const media = isImg
     ? <Img src={staticFile('clips/' + s.src)} style={{width: '100%', height: '100%', objectFit: 'cover'}} />
-    : <OffthreadVideo src={staticFile('clips/' + s.src)} startFrom={Math.round((s.start ?? 0) * fps)} muted={!s.volume} volume={s.volume ?? 0}
+    : <OffthreadVideo src={staticFile('clips/' + s.src)} startFrom={Math.round((s.start ?? 0) * fps)} muted={s.volume === 0} volume={s.volume ?? 1}
         style={{width: '100%', height: '100%', objectFit: 'cover'}} />;
   return (
     <AbsoluteFill>
