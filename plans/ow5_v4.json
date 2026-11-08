@@ -59,6 +59,19 @@
      "to": 2.2
     }
    ]
+  },
+  {
+   "src": "octo_v1.mp4",
+   "start": 10.25,
+   "duration": 1.8,
+   "captions": [
+    {
+     "text": "The Solution 😌🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 1.8
+    }
+   ]
   }
  ]
 }
