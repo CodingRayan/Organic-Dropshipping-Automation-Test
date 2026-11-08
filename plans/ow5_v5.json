@@ -2,7 +2,7 @@
  "fps": 30,
  "music": {
   "file": "octo.mp3",
-  "dropAt": 5.15,
+  "dropAt": 5.8,
   "popAt": 1.7,
   "volume": 0.9,
   "dropVolume": 0.9
