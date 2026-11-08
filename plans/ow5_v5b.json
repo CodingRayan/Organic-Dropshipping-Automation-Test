@@ -1,0 +1,152 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 1.7,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v5.mp4",
+   "start": 0.0,
+   "duration": 1.7,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0,
+     "to": 1.7
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0,
+     "to": 1.7,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v5.mp4",
+   "start": 3.3,
+   "duration": 1.9,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.9
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.9,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v2.mp4",
+   "start": 6.9,
+   "duration": 1.5,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.5
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.5,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v1.mp4",
+   "start": 4.75,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.3
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.3,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v1.mp4",
+   "start": 7.9,
+   "duration": 1.2,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.2
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.2,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v5.mp4",
+   "start": 6.1,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.3
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.3,
+     "left": 60
+    }
+   ]
+  },
+  {
+   "src": "octo_v4.mp4",
+   "start": 9.6,
+   "duration": 1.3,
+   "captions": [
+    {
+     "text": "\"Babe we need to stop buying\ncute stuff, we're broke\" 😭",
+     "top": 250,
+     "from": 0.0,
+     "to": 1.3
+    },
+    {
+     "text": "Me: 🐙💕",
+     "top": 560,
+     "from": 0.0,
+     "to": 1.3,
+     "left": 60
+    }
+   ]
+  }
+ ]
+}

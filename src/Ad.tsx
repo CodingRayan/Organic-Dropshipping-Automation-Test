@@ -81,7 +81,7 @@ export const Ad: React.FC<AdProps> = (p) => {
             const duckEnd = m.duckUntil !== undefined ? Math.round(m.duckUntil * p.fps) : -1;
             let base = f < duckEnd ? (m.duckVolume ?? 0.15) : f < pop ? (m.volume ?? 1) : (m.dropVolume ?? m.volume ?? 1);
             for (const d of m.ducks ?? []) { if (f >= Math.round(d.from * p.fps) && f < Math.round(d.to * p.fps)) base = d.volume; }
-            return base * interpolate(f, [total - 15, total], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+            return base * interpolate(f, [total - 4, total], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
           }} />;
       })() : null}
     </AbsoluteFill>

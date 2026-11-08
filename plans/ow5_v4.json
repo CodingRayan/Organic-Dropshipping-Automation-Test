@@ -1,0 +1,64 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "octo.mp3",
+  "dropAt": 5.15,
+  "popAt": 5.15,
+  "volume": 0.9,
+  "dropVolume": 0.9
+ },
+ "scenes": [
+  {
+   "src": "octo_v4.mp4",
+   "start": 0.5,
+   "duration": 2.6,
+   "captions": [
+    {
+     "text": "The Problem 😩🥶",
+     "top": 345,
+     "from": 0,
+     "to": 2.6
+    }
+   ]
+  },
+  {
+   "src": "octo_v4.mp4",
+   "start": 6.6,
+   "duration": 2.55,
+   "captions": [
+    {
+     "text": "Vs...",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.55
+    }
+   ]
+  },
+  {
+   "src": "octo_v4.mp4",
+   "start": 11.3,
+   "duration": 2.4,
+   "captions": [
+    {
+     "text": "The Solution 😌🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.4
+    }
+   ]
+  },
+  {
+   "src": "octo_v3.mp4",
+   "start": 10.5,
+   "duration": 2.2,
+   "captions": [
+    {
+     "text": "The Solution 😌🐙",
+     "top": 345,
+     "from": 0.0,
+     "to": 2.2
+    }
+   ]
+  }
+ ]
+}
