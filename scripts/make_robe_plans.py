@@ -25,6 +25,17 @@ TEXTS = {  # one text per video; a tuple = (text on the hook shot, text after th
     "rb_v8": "\"Send this to someone\nwho'd absolutely wear\nthis with you 🥶🐙\"",
     "rb_v9": "\"Send this to your friend\nwho'd absolutely wear\nthis with you 😆🤭\"",
     "rb_v10": "Don't show this to a girl\nwho's always cold.. 🐙❄️",
+    # Day 2 (Nov 9): one-change split tests of the outlier rb_v6 (67K) + one of rb_v7 (T39/T42/T36)
+    "d2_1": "Send this to your friend\nwho's always cold 🥶🐙",
+    "d2_2": "Send this to your bestie\nwho's always cold 🥶🐙",
+    "d2_3": "Send this to your gf\nwho's always cold 🥶🐙",
+    "d2_4": "Send this to your mom\nwho's always cold 🥶🐙",
+    "d2_5": "Send this to your sister\nwho's always cold 🥶🐙",
+    "d2_6": "Send this to someone\nwho's ALWAYS cold 🥶🐙",
+    "d2_7": "Send this to someone\nwho's always freezing 🥶🐙",
+    "d2_8": "Send this to someone\nwho's always cold 🥶💕",
+    "d2_9": "Tag someone who's\nalways cold 🥶🐙",
+    "d2_10": "I made this for the girls\nwho are always freezing.. 🥶🐙",
 }
 def plan(text):
     hook_t, rest_t = text if isinstance(text, tuple) else (text, text)
