@@ -19,7 +19,7 @@ export type Scene = {
   sfx?: Sfx[];            // times relative to the scene, in seconds
 };
 // music.dropAt = second in the song where the beat drops; music.popAt = second in the video where it should land.
-export type AdProps = {fps: number; scenes: Scene[]; music?: {file: string; volume?: number; dropVolume?: number; duckUntil?: number; duckVolume?: number; ducks?: {from: number; to: number; volume: number}[]; start?: number; dropAt?: number; popAt?: number}};
+export type AdProps = {fps: number; scenes: Scene[]; music?: {file: string; volume?: number; dropVolume?: number; duckUntil?: number; duckVolume?: number; ducks?: {from: number; to: number; volume: number}[]; start?: number; dropAt?: number; popAt?: number; at?: number}};
 
 export const totalFrames = (p: AdProps) => p.scenes.reduce((n, s) => n + Math.round(s.duration * p.fps), 0);
 
@@ -71,7 +71,14 @@ export const Ad: React.FC<AdProps> = (p) => {
         cursor += len;
         return el;
       })}
-      {p.music ? (() => {
+      {p.music && p.music.at !== undefined ? (() => {
+        // Song begins at video second `at` (from the song's own start + `start`), plays at a flat volume, fades out on the last frames.
+        const m = p.music!;
+        const from = Math.round(m.at! * p.fps);
+        const total = totalFrames(p);
+        return <Sequence from={from}><Audio src={staticFile('audio/' + m.file)} startFrom={Math.round((m.start ?? 0) * p.fps)}
+          volume={(f) => (m.volume ?? 1) * interpolate(f + from, [total - 4, total], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})} /></Sequence>;
+      })() : p.music ? (() => {
         const m = p.music!;
         const start = m.dropAt !== undefined && m.popAt !== undefined ? Math.max(0, m.dropAt - m.popAt) : (m.start ?? 0);
         const total = totalFrames(p);

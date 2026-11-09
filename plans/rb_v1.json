@@ -1,0 +1,108 @@
+{
+ "fps": 30,
+ "music": {
+  "file": "frightful.mp3",
+  "at": 4.3,
+  "volume": 0.7
+ },
+ "scenes": [
+  {
+   "src": "rb_hook.mp4",
+   "start": 0.0,
+   "duration": 5.0,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 5.0
+    }
+   ]
+  },
+  {
+   "src": "rb_hood.mp4",
+   "start": 0.4,
+   "duration": 2.2,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 2.2
+    }
+   ]
+  },
+  {
+   "src": "rb_feet.mp4",
+   "start": 0.5,
+   "duration": 5.0,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 5.0
+    }
+   ]
+  },
+  {
+   "src": "rb_close.mp4",
+   "start": 2.5,
+   "duration": 1.0,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.0
+    }
+   ]
+  },
+  {
+   "src": "rb_plug.mp4",
+   "start": 1.2,
+   "duration": 1.2,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.2
+    }
+   ]
+  },
+  {
+   "src": "rb_remote.mp4",
+   "start": 0.1,
+   "duration": 1.7,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.7
+    }
+   ]
+  },
+  {
+   "src": "rb_couch.mp4",
+   "start": 0.4,
+   "duration": 3.25,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 3.25
+    }
+   ]
+  }
+ ]
+}
