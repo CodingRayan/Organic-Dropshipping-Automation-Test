@@ -2,21 +2,21 @@
  "fps": 30,
  "music": {
   "file": "frightful.mp3",
-  "at": 3.0,
+  "at": 2.7,
   "volume": 0.7
  },
  "scenes": [
   {
    "src": "rb_hook.mp4",
-   "start": 0.0,
-   "duration": 5.0,
+   "start": 0.3,
+   "duration": 3.9,
    "volume": 1.0,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 5.0
+     "to": 3.9
     }
    ]
   },
@@ -45,6 +45,20 @@
      "top": 345,
      "from": 0,
      "to": 1.0
+    }
+   ]
+  },
+  {
+   "src": "rb_hood.mp4",
+   "start": 2.8,
+   "duration": 0.8,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 0.8
     }
    ]
   },
