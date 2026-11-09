@@ -14,12 +14,23 @@ SHOTS = [  # (file, start, duration, clip volume) -- tight cut, jump cuts inside
     ("rb_couch.mp4", 0.4, 1.5, 0.8),      # couch snuggle
 ]
 SONG_AT = 2.7  # song file starts here; first note at 3.15, right as her "let's see how it turns out" ends and the robe drops
-TEXTS = {
+TEXTS = {  # one text per video; a tuple = (text on the hook shot, text after the hook)
     "rb_v1": "I made this for the\ncold-aholics.. 🥶🐙",
+    "rb_v2": "\"Send this to someone who'd\nabsolutely wear this with you 😆🤭\"",
+    "rb_v3": ("\"My bf: Stop buying\nnonsense.\" 🙄", "Me 🐙:"),
+    "rb_v4": "Don't show this to\nan anemic.. 😳❄️",
+    "rb_v5": "Do NOT let a girl who's\nalways cold see this.. 🥶🐙",
+    "rb_v6": "Send this to someone\nwho's always cold 🥶🐙",
+    "rb_v7": "I made this for the girls\nwho are always cold.. 🥶🐙",
+    "rb_v8": "\"Send this to someone who'd\nabsolutely wear this with you 🥶🐙\"",
+    "rb_v9": "\"Send this to your friend who'd\nabsolutely wear this with you 😆🤭\"",
+    "rb_v10": "Don't show this to a girl\nwho's always cold.. 🐙❄️",
 }
 def plan(text):
-    scenes = [{"src": f, "start": s, "duration": d, "volume": v,
-               "captions": [{"text": text, "top": 345, "from": 0, "to": d}]} for f, s, d, v in SHOTS]
+    hook_t, rest_t = text if isinstance(text, tuple) else (text, text)
+    scenes = [{"src": f, "start": st, "duration": d, "volume": v,
+               "captions": [{"text": hook_t if i == 0 else rest_t, "top": 345, "from": 0, "to": d}]}
+              for i, (f, st, d, v) in enumerate(SHOTS)]
     return {"fps": 30, "music": {"file": "frightful.mp3", "at": SONG_AT, "volume": 0.7}, "scenes": scenes}
 for name, text in TEXTS.items():
     json.dump(plan(text), open(f"plans/{name}.json", "w"), ensure_ascii=False, indent=1)
