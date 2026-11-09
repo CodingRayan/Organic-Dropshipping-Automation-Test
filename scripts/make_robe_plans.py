@@ -9,11 +9,12 @@ SHOTS = [  # (file, start, duration, clip volume) -- 10 shots, jump cuts inside 
     ("rb_hood.mp4", 2.8, 0.8, 0.8),     # hood on, adjusting (competitor v2 has 3 hood cuts)
     ("rb_feet.mp4", 0.1, 1.3, 0.8),     # first foot into the pocket
     ("rb_feet.mp4", 2.2, 1.3, 0.8),     # second foot into the pocket
-    ("rb_feet.mp4", 4.0, 1.8, 0.8),     # robe pulled open
+    ("rb_feet.mp4", 4.0, 1.65, 0.8),     # robe pulled open
     ("rb_close.mp4", 2.4, 1.4, 0.8),    # robe closed, tying the bow
     ("rb_plug.mp4", 1.2, 1.2, 1.0),     # plug click
     ("rb_remote.mp4", 0.1, 1.6, 1.0),   # remote clicks
-    ("rb_couch.mp4", 0.4, 2.45, 0.8),   # couch snuggle
+    ("rb_remote2.mp4", 3.8, 0.8, 1.0),  # last click, light jumps to max (numbers stay correct in this part)
+    ("rb_couch.mp4", 0.4, 1.8, 0.8),   # couch snuggle
 ]
 SONG_AT = 2.7  # song file starts here; first note at 3.15, right as her "let's see how it turns out" ends and the robe drops
 TEXTS = {

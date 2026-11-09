@@ -93,14 +93,14 @@
   {
    "src": "rb_feet.mp4",
    "start": 4.0,
-   "duration": 1.8,
+   "duration": 1.65,
    "volume": 0.8,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 1.8
+     "to": 1.65
     }
    ]
   },
@@ -147,16 +147,30 @@
    ]
   },
   {
+   "src": "rb_remote2.mp4",
+   "start": 3.8,
+   "duration": 0.8,
+   "volume": 1.0,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 0.8
+    }
+   ]
+  },
+  {
    "src": "rb_couch.mp4",
    "start": 0.4,
-   "duration": 2.45,
+   "duration": 1.8,
    "volume": 0.8,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 2.45
+     "to": 1.8
     }
    ]
   }
