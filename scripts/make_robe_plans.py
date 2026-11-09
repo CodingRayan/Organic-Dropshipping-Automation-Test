@@ -6,15 +6,15 @@ SHOTS = [  # (file, start, duration, clip volume) -- 10 shots, jump cuts inside 
     ("rb_hook.mp4", 0.0, 5.0, 1.0),     # 3-2-1 bounce, drop, reveal
     ("rb_hood.mp4", 0.2, 1.0, 0.8),     # hands on the hood (face on hood visible)
     ("rb_hood.mp4", 1.6, 1.0, 0.8),     # hood goes up
-    ("rb_feet.mp4", 0.0, 1.4, 0.8),     # first foot into the pocket
-    ("rb_feet.mp4", 2.1, 1.4, 0.8),     # second foot into the pocket
-    ("rb_feet.mp4", 3.8, 2.2, 0.8),     # robe pulled open
+    ("rb_feet.mp4", 0.1, 1.3, 0.8),     # first foot into the pocket
+    ("rb_feet.mp4", 2.2, 1.3, 0.8),     # second foot into the pocket
+    ("rb_feet.mp4", 4.0, 1.8, 0.8),     # robe pulled open
     ("rb_close.mp4", 2.4, 1.4, 0.8),    # robe closed, tying the bow
     ("rb_plug.mp4", 1.2, 1.2, 1.0),     # plug click
     ("rb_remote.mp4", 0.1, 1.6, 1.0),   # remote clicks
-    ("rb_couch.mp4", 0.4, 3.15, 0.8),   # couch snuggle
+    ("rb_couch.mp4", 0.4, 2.45, 0.8),   # couch snuggle
 ]
-SONG_AT = 4.3  # song file starts here; its first sound lands at 4.75, just before the 5.0 cut
+SONG_AT = 3.0  # song file starts here; first note at 3.45, right as her "let's see how it turns out" ends and the robe drops
 TEXTS = {
     "rb_v1": "I made this for the\ncold-aholics.. 🥶🐙",
 }
