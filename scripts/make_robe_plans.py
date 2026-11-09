@@ -10,7 +10,7 @@ SHOTS = [  # (file, start, duration, clip volume) -- 10 shots, jump cuts inside 
     ("rb_feet.mp4", 2.2, 1.2, 0.8),     # second foot into the pocket
     ("rb_feet.mp4", 4.0, 1.5, 0.8),     # robe pulled open
     ("rb_close.mp4", 2.4, 1.2, 0.8),    # robe closed, tying the bow
-    ("rb_plug.mp4", 1.2, 1.2, 1.0),     # plug click
+    ("rb_plug2.mp4", 0.2, 2.4, 1.0),    # plug: big gap -> one smooth push -> fully in -> click
     ("rb_remote_sd.mp4", 1.6, 2.4, 1.0),# remote: 3 clicks, light 3 -> 4 -> 5 (Seedance 1080p)
     ("rb_couch.mp4", 0.4, 1.8, 0.8),    # couch snuggle
 ]

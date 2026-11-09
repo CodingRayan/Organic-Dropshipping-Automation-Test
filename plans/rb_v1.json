@@ -105,16 +105,16 @@
    ]
   },
   {
-   "src": "rb_plug.mp4",
-   "start": 1.2,
-   "duration": 1.2,
+   "src": "rb_plug2.mp4",
+   "start": 0.2,
+   "duration": 2.4,
    "volume": 1.0,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 1.2
+     "to": 2.4
     }
    ]
   },
