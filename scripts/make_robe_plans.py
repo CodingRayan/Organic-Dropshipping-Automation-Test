@@ -11,7 +11,7 @@ SHOTS = [  # (file, start, duration, clip volume) -- tight cut, jump cuts inside
     ("rb_close.mp4", 2.4, 1.0, 0.8),      # robe closed, tying the bow
     ("rb_plug2.mp4", 0.5, 2.1, 1.0),      # plug: gap -> one smooth push -> fully in -> click
     ("rb_remote_sd.mp4", 1.8, 1.9, 1.0),  # remote: 3 clicks, light 3 -> 4 -> 5
-    ("rb_couch.mp4", 0.4, 1.5, 0.8),      # couch snuggle
+    ("rb_couch.mp4", 0.4, 2.2, 0.8),      # couch snuggle
 ]
 SONG_AT = 2.7  # song file starts here; first note at 3.15, right as her "let's see how it turns out" ends and the robe drops
 TEXTS = {  # one text per video; a tuple = (text on the hook shot, text after the hook)
