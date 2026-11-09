@@ -22,7 +22,63 @@
   },
   {
    "src": "rb_hood.mp4",
-   "start": 0.4,
+   "start": 0.2,
+   "duration": 1.0,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.0
+    }
+   ]
+  },
+  {
+   "src": "rb_hood.mp4",
+   "start": 1.6,
+   "duration": 1.0,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.0
+    }
+   ]
+  },
+  {
+   "src": "rb_feet.mp4",
+   "start": 0.0,
+   "duration": 1.4,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.4
+    }
+   ]
+  },
+  {
+   "src": "rb_feet.mp4",
+   "start": 2.1,
+   "duration": 1.4,
+   "volume": 0.8,
+   "captions": [
+    {
+     "text": "I made this for the\ncold-aholics.. 🥶🐙",
+     "top": 345,
+     "from": 0,
+     "to": 1.4
+    }
+   ]
+  },
+  {
+   "src": "rb_feet.mp4",
+   "start": 3.8,
    "duration": 2.2,
    "volume": 0.8,
    "captions": [
@@ -35,30 +91,16 @@
    ]
   },
   {
-   "src": "rb_feet.mp4",
-   "start": 0.5,
-   "duration": 5.0,
-   "volume": 0.8,
-   "captions": [
-    {
-     "text": "I made this for the\ncold-aholics.. 🥶🐙",
-     "top": 345,
-     "from": 0,
-     "to": 5.0
-    }
-   ]
-  },
-  {
    "src": "rb_close.mp4",
-   "start": 2.5,
-   "duration": 1.0,
+   "start": 2.4,
+   "duration": 1.4,
    "volume": 0.8,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 1.0
+     "to": 1.4
     }
    ]
   },
@@ -79,28 +121,28 @@
   {
    "src": "rb_remote.mp4",
    "start": 0.1,
-   "duration": 1.7,
+   "duration": 1.6,
    "volume": 1.0,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 1.7
+     "to": 1.6
     }
    ]
   },
   {
    "src": "rb_couch.mp4",
    "start": 0.4,
-   "duration": 3.25,
+   "duration": 3.15,
    "volume": 0.8,
    "captions": [
     {
      "text": "I made this for the\ncold-aholics.. 🥶🐙",
      "top": 345,
      "from": 0,
-     "to": 3.25
+     "to": 3.15
     }
    ]
   }

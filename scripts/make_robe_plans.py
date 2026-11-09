@@ -2,14 +2,17 @@ import json
 # OctoWrap heated robe showcase (Nov 8): competitor cloak showcase copied shot for shot.
 # Song: frightful.mp3 (user's file, 15.05s, first sound at 0.45s) played start to finish,
 # placed so it comes in right before the cut after the hook and ends with the video.
-SHOTS = [  # (file, start, duration, clip volume)
-    ("rb_hook.mp4", 0.0, 5.0, 1.0),
-    ("rb_hood.mp4", 0.4, 2.2, 0.8),
-    ("rb_feet.mp4", 0.5, 5.0, 0.8),
-    ("rb_close.mp4", 2.5, 1.0, 0.8),
-    ("rb_plug.mp4", 1.2, 1.2, 1.0),
-    ("rb_remote.mp4", 0.1, 1.7, 1.0),
-    ("rb_couch.mp4", 0.4, 3.25, 0.8),
+SHOTS = [  # (file, start, duration, clip volume) -- 10 shots, jump cuts inside the long actions like competitor v1/v2
+    ("rb_hook.mp4", 0.0, 5.0, 1.0),     # 3-2-1 bounce, drop, reveal
+    ("rb_hood.mp4", 0.2, 1.0, 0.8),     # hands on the hood (face on hood visible)
+    ("rb_hood.mp4", 1.6, 1.0, 0.8),     # hood goes up
+    ("rb_feet.mp4", 0.0, 1.4, 0.8),     # first foot into the pocket
+    ("rb_feet.mp4", 2.1, 1.4, 0.8),     # second foot into the pocket
+    ("rb_feet.mp4", 3.8, 2.2, 0.8),     # robe pulled open
+    ("rb_close.mp4", 2.4, 1.4, 0.8),    # robe closed, tying the bow
+    ("rb_plug.mp4", 1.2, 1.2, 1.0),     # plug click
+    ("rb_remote.mp4", 0.1, 1.6, 1.0),   # remote clicks
+    ("rb_couch.mp4", 0.4, 3.15, 0.8),   # couch snuggle
 ]
 SONG_AT = 4.3  # song file starts here; its first sound lands at 4.75, just before the 5.0 cut
 TEXTS = {
