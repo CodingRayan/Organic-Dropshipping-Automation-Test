@@ -16,14 +16,14 @@ SHOTS = [  # (file, start, duration, clip volume) -- tight cut, jump cuts inside
 SONG_AT = 2.7  # song file starts here; first note at 3.15, right as her "let's see how it turns out" ends and the robe drops
 TEXTS = {  # one text per video; a tuple = (text on the hook shot, text after the hook)
     "rb_v1": "I made this for the\ncold-aholics.. 🥶🐙",
-    "rb_v2": "\"Send this to someone who'd\nabsolutely wear this with you 😆🤭\"",
+    "rb_v2": "\"Send this to someone\nwho'd absolutely wear\nthis with you 😆🤭\"",
     "rb_v3": ("\"My bf: Stop buying\nnonsense.\" 🙄", "Me 🐙:"),
     "rb_v4": "Don't show this to\nan anemic.. 😳❄️",
     "rb_v5": "Do NOT let a girl who's\nalways cold see this.. 🥶🐙",
     "rb_v6": "Send this to someone\nwho's always cold 🥶🐙",
     "rb_v7": "I made this for the girls\nwho are always cold.. 🥶🐙",
-    "rb_v8": "\"Send this to someone who'd\nabsolutely wear this with you 🥶🐙\"",
-    "rb_v9": "\"Send this to your friend who'd\nabsolutely wear this with you 😆🤭\"",
+    "rb_v8": "\"Send this to someone\nwho'd absolutely wear\nthis with you 🥶🐙\"",
+    "rb_v9": "\"Send this to your friend\nwho'd absolutely wear\nthis with you 😆🤭\"",
     "rb_v10": "Don't show this to a girl\nwho's always cold.. 🐙❄️",
 }
 def plan(text):
