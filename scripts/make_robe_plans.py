@@ -45,7 +45,7 @@ TEXTS = {  # one text per video; a tuple = (text on the hook shot, text after th
     "d3_6": "Send this to your mom\nwho's ALWAYS cold 🥶🐙",
     "d3_7": "Send this to your friend\nwho's ALWAYS cold 🥶🐙",
     "d3_8": "Send this to your bf so\nhe gets you this for\nChristmas 🎁🥶",
-    "d3_9": "Getting my bestie this for\nChristmas cause she's always cold 🎁🥶",
+    "d3_9": "Getting my bestie this for\nChristmas cause she's\nalways cold 🎁🥶",
     "d3_10": "The perfect gift for the girl\nwho's always cold 🎁🐙",
 }
 def plan(text):
